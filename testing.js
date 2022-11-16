@@ -1,10 +1,13 @@
-function getSomeValue() {
-    return 2
+function myFunction(a) {
+    let b = 20
+    
+    console.log("a:", a)
+    console.log("b:", b)
+    console.log("c:", c)
   }
   
-  function myFunction(num1) {
-    return getSomeValue() * getSomeValue()
-  }
+  let a = 1
+  let b = 2
+  let c = 3
   
-  const result = myFunction(5)
-  console.log(result)
+  myFunction(100)
